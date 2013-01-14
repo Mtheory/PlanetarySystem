@@ -1,1 +1,21 @@
 This is a simple web-app created using Spring3 and Hibernate. This is just a simple showcase to ilustrate some of the Spring MVC features.
+
+Project uses maven-jetty-plugin that allows running this app from the dedicated Jetty container. http://docs.codehaus.org/display/JETTY/Maven+Jetty+Plugin
+This means that you don't need any servers installed. Jetty will run from within this app.
+
+It uses HSQLDB. This is an in-memory database that starts up when the app starts and dies when the app stops. http://hsqldb.org/
+HSQLDB will create its schema based on hibernate mapping configuration.
+This means that you don't need any DB installed.
+
+
+
+When you download the project you can run it from maven using: 
+
+mvn jetty:run
+
+It starts on localhost:8090/planets/
+
+To stop it use:
+
+mvn jetty:stop
+
