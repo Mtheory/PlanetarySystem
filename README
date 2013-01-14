@@ -1,4 +1,4 @@
-This is a simple web-app created using Spring3 and Hibernate. This is just a simple showcase to ilustrate some of the Spring MVC features.
+This is a simple web-app created using Spring3 and Hibernate. This is just a simple showcase to show-off some of the Spring MVC features.
 
 Project uses maven-jetty-plugin that allows running this app from the dedicated Jetty container. http://docs.codehaus.org/display/JETTY/Maven+Jetty+Plugin
 This means that you don't need any servers installed. Jetty will run from within this app.
